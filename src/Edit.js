@@ -34,7 +34,7 @@ const Edit = ({ temp, list, setList, setState, state }) => {
             priority: update.two,
           };
           // setList([...list, { dum }]);
-          setVariable(dum);
+          // setVariable(dum);
 
           console.log(dum);
         }
@@ -78,74 +78,8 @@ const Edit = ({ temp, list, setList, setState, state }) => {
             </div>
           );
         })}
-      {/* <input />
-      <input name="priority" />
-      <button type="button" class="btn btn-success">
-        Success
-      </button>
-      <button type="button" class="btn btn-warning">
-        Close
-      </button> */}
     </div>
   );
 };
 
 export default Edit;
-// import React, { useState } from "react";
-// import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-
-// const Edit = ({ id, list, setList, setState, state }) => {
-//   const [update, setUpdate] = useState({ work: "" });
-//   const [holder, setHolder] = useState(null);
-//   const editChange = (e) => {
-//     setUpdate({ ...update, [e.target.name]: e.target.value });
-//     console.log(update);
-//   };
-//   const updateForm = (loopId) => {
-//     console.log(loopId);
-//     if (id === loopId) {
-//       console.log("hope");
-//     }
-//   };
-
-//   return (
-//     <div>
-//       {list.map((list, index) => {
-//         return (
-//           <div key={list.id}>
-//             <input
-//               name={update.work}
-//               // value={list.work}
-//               defaultValue={list.work}
-//               onChange={editChange}
-//             />
-//             <input
-//               name="priority"
-//               // value={list.priority}
-//               defaultValue={list.priority}
-//               onChange={editChange}
-//             />
-//             <button
-//               type="button"
-//               class="btn btn-success"
-//               onClick={() => updateForm(list.id)}
-//             >
-//               Success
-//             </button>
-//             <button
-//               type="button"
-//               class="btn btn-warning"
-//               onClick={() => {
-//                 setState(!state);
-//               }}
-//             >
-//               Close
-//             </button>
-//           </div>
-//         );
-//       })}
-//     </div>
-//   );
-// };
-
-// export default Edit;

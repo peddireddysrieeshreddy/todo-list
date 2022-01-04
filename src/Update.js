@@ -11,7 +11,7 @@ const Update = ({ data, list, setList }) => {
         }
       });
     }
-    setList([...list, { data }]);
+    // setList([...list, { data }]);
   }, []);
   console.log(data);
   return <div></div>;

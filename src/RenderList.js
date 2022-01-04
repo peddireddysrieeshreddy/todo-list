@@ -42,7 +42,6 @@ const RenderList = ({ list, setList }) => {
             <table className="table">
               <thead>
                 <tr>
-                  <th scope="col">#</th>
                   <th scope="col">WORK</th>
                   <th scope="col">PRIORITY</th>
                   <th scope="col">EDIT</th>
@@ -51,7 +50,6 @@ const RenderList = ({ list, setList }) => {
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">1</th>
                   <td>{list.work}</td>
                   <td>{list.priority}</td>
                   <td>
