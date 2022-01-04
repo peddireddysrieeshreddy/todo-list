@@ -1,0 +1,21 @@
+.input {
+  position: relative;
+  background: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 50px;
+  font-size: 32px;
+}
+.button {
+  background-color: green;
+  border: darkblue;
+  display: block;
+  margin: 35px auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.division {
+  background-color: blanchedalmond;
+}
