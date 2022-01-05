@@ -13,9 +13,8 @@ export const List = () => {
     e.preventDefault();
     if (state.work && state.priority) {
       setList([...list, state]);
-      console.log(list);
     }
-    console.log(list);
+    
     setstate({ work: "", priority: "", id: "" });
   };
 
@@ -44,7 +43,7 @@ export const List = () => {
           </button>
         </form>
 
-        <p1></p1>
+        <p></p>
       </div>
       <RenderList list={list} setList={setList} />
     </>
